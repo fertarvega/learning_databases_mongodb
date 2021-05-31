@@ -86,7 +86,7 @@ class AllBadge(Resource):
     def get(self):
         pass
 
-api.add_resource(Badge,'/new/','/<string:by>:<string:data>')
+api.add_resource(Badge,'/new/','/<string:by>-<string:data>')
 api.add_resource(Test,'/test/')
 
 if __name__ == '__main__':
