@@ -35,6 +35,26 @@ class Badges(Resource):
                 'followers': request.json[1]['followers'],
                 'likes': request.json[1]['likes'],
                 'posts': request.json[1]['posts'],
+            },
+            {
+                'header_img_url': request.json[2]['header_img_url'],
+                'profile_picture_url': request.json[2]['profile_picture_url'],
+                'name': request.json[2]['name'],
+                'age': request.json[2]['age'],
+                'city': request.json[2]['city'],
+                'followers': request.json[2]['followers'],
+                'likes': request.json[2]['likes'],
+                'posts': request.json[2]['posts'],
+            },
+            {
+                'header_img_url': request.json[3]['header_img_url'],
+                'profile_picture_url': request.json[3]['profile_picture_url'],
+                'name': request.json[3]['name'],
+                'age': request.json[3]['age'],
+                'city': request.json[3]['city'],
+                'followers': request.json[3]['followers'],
+                'likes': request.json[3]['likes'],
+                'posts': request.json[3]['posts'],
             }
         ]).inserted_ids)
 
