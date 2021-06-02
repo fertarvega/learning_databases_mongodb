@@ -1,5 +1,5 @@
 */venv
 .env
 /venv
-*__pychache__
-*/__pychache__
+*__pycache__
+*/__pycache__
